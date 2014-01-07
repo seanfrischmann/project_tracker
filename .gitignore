@@ -1,2 +1,5 @@
 #byte-compiled / optimized / DLL files
 *.py[cod]
+
+#Database Files
+*.db
