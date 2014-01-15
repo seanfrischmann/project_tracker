@@ -31,3 +31,17 @@ def timer_function():
 
 			print ret_dict
 			break
+
+class timer_object():
+	def start_end_timer():
+		timer = int(time.time())
+		return timer
+	def convert_hours(time):
+		hours = int(time/60)/60
+		return hours
+	def convert_minutes(time):
+		minutes = int(time/60)%60
+		return minutes
+	def convert_seconds(time):
+		seconds = int(time%60)
+		return seconds

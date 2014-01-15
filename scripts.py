@@ -18,7 +18,7 @@ def program_message():
 def main_menu():
 	print ('\nPlease enter one of the following commands:\n'
 			'	create	--> to create a new project\n'
-			'	select project	--> to select an existing project\n')
+			'	select	--> to select an existing project\n')
 
 def project_name_prompt():
 	print '\nEnter the name of the project you wish to create:\n'
@@ -38,20 +38,9 @@ def select_project_prompt():
 
 def select_menu():
 	print ('\nWhat would you like to do?\n'
-			'	View Entry	--> view an existing entry\n'
-			'	New Entry	--> create a new entry\n'
-			'	Cancel		--> exit to main menu\n')
-
-def select_menu_error():
-	print ('\nCould not understand your choice, please enter\n'
-			' command exactly as you see it.\n')
-
-def does_not_exist_error():
-	print ('\nThe project you typed does not exist, please make sure you\n'
-			' are entering correctly.\n')
-
-def wrong_command_error():
-	print '\nPlease make sure you are typing the command exactly as it appears\n'
+			'	View	--> view an existing entry\n'
+			'	New		--> create a new entry\n'
+			'	Cancel	--> exit to main menu\n')
 
 def start_timer_prompt():
 	print ('\nWhen you are ready to start the timer, please enter Start or'
