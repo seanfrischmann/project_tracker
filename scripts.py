@@ -21,16 +21,16 @@ def main_menu():
 			'	select	--> to select an existing project\n')
 
 def project_name_prompt():
-	print '\nEnter the name of the project you wish to create:\n'
+	print ('\nEnter the name of the project you wish to create:\n')
 
 def project_description_prompt():
-	print '\nEnter a brief description of the project'
+	print ('\nEnter a brief description of the project')
 
 def creating_project_prompt(project_name):
 	print ('\nCreating project named: ' + project_name + '\n')
 
 def project_list_prompt():
-	print '\nThe following are a list of existing projects:'
+	print ('\nThe following are a list of existing projects:')
 
 def select_project_prompt():
 	print ('\nEnter the project you wish to select or enter Cancel to\n'
@@ -51,4 +51,4 @@ def stop_timer_prompt():
 			'would like to take a break, enter break:')
 
 def comment_prompt():
-	print '\nEnter any comments you like, if you don\'t to then just hit enter'
+	print ('\nEnter any comments you like, if you don\'t to then just hit enter')
